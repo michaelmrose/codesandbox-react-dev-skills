@@ -1,0 +1,27 @@
+@import "https://cdn.jsdelivr.net/npm/@picocss/pico@1/css/pico.classless.min.css";
+.App {
+  font-family: sans-serif;
+  text-align: center;
+  background-color: black;
+}
+.levelBadge {
+  background-color: purple;
+  padding: 5px;
+  border-radius: 8px;
+}
+input {
+  background-color: #222;
+  max-width: 50vh;
+  margin: 8px;
+}
+select {
+  background-color: #222;
+  max-width: 20vh;
+  margin: 8px;
+}
+form {
+  border: 3px solid whitesmoke;
+}
+label {
+  display: inline;
+}
